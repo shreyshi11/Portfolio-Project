@@ -1,0 +1,147 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shreyshi | IT Engineer Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+ 
+</head>
+<body>
+  <!-- 🌙 Dark Mode Toggle -->
+  <button onclick="toggleDarkMode()" class="dark-mode-toggle">🌙</button>
+
+  <!-- 🔝 Navigation Bar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Shreyshi Sriwastav</div>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sections -->
+  <section id="home">
+    <div class="hero-content">
+      <h1>Hello, I'm <span class="name">Shreyshi Sriwastav</span></h1>
+      <p>Passionate IT Engineer | Web Developer | Cloud Enthusiast</p>
+      <br>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </section>
+
+
+  <!-- 👩‍💻 About Section -->
+  <section id="about" class="about-section">
+    <div class="about-container">
+      <img src="https://avatars.githubusercontent.com/u/9919?s=200&v=4" alt="Profile Photo" class="about-photo">
+      <div class="about-content">
+        <h2>About Me</h2>
+        <p>
+          Hi! I'm <strong>Shreyshi Sriwastav</strong>, an enthusiastic IT Engineer with a passion for building responsive web applications, deploying scalable backends, and writing clean code. 
+          I love solving real-world problems using modern tech stacks like <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>Node.js</strong>.
+        </p>
+        <p>I’m also skilled in content creation, email marketing, and technical writing.</p>
+        <a href="assets/Resume_Shreyshi_Sriwastav.pdf" download class="resume-button">
+          <i class="fas fa-download"></i> Download Resume
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🛠 Services Section -->
+  <section id="services" class="services-section">
+    <h2 class="section-title">My Services</h2>
+    <div class="service-cards">
+      <div class="service-card">
+        <i class="fas fa-code service-icon"></i>
+        <h3>Frontend Development</h3>
+        <p>Building interactive, responsive web UIs using HTML, CSS, JavaScript, and modern frameworks.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-server service-icon"></i>
+        <h3>Backend & Deployment</h3>
+        <p>Node.js API design, server setup, and deployment on AWS/EC2 with CI/CD pipeline integration.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-envelope service-icon"></i>
+        <h3>Content & Email Marketing</h3>
+        <p>Crafting compelling content, newsletters, and professional email campaigns that drive engagement.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🖼 Projects Section -->
+  <section id="projects" class="projects-section">
+    <h2 class="section-title">My Projects</h2>
+    <div class="project-container">
+      <div class="project-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968756.png" alt="Amazon Clone Icon" class="project-icon" />
+        <h3>Amazon Clone</h3>
+        <p>A full-featured e-commerce clone using HTML, CSS, JS.</p>
+      </div>
+      <div class="project-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" alt="AWS Deployment Icon" class="project-icon" />
+        <h3>Edu Navia</h3>
+        <p>Deployed Node.js app on AWS EC2 with CI/CD pipeline.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 💬 Testimonials -->
+  <section id="testimonials" class="testimonials-section">
+    <h2 class="section-title">What People Say</h2>
+    <div class="testimonial-cards">
+      <div class="testimonial-card">
+        <p>"Shreyshi is a dedicated developer. Her attention to detail and commitment to project delivery impressed our team."</p>
+        <h4>- Rahul Verma, Project Manager</h4>
+      </div>
+      <div class="testimonial-card">
+        <p>"Her backend deployment on AWS EC2 saved our time and cost. Highly recommend for DevOps tasks."</p>
+        <h4>- Priya Khanna, Tech Lead</h4>
+      </div>
+      <div class="testimonial-card">
+        <p>"From UI design to marketing content, she handled everything flawlessly. A multi-skilled IT engineer!"</p>
+        <h4>- Neha Singh, Freelancer Client</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🏅 Certification Section -->
+  <section id="certifications" class="certifications-section">
+    <h2 class="section-title">Certifications</h2>
+    <ul class="cert-list">
+      <li>✔ AWS Certified Cloud Practitioner</li>
+      <li>✔ Responsive Web Design - freeCodeCamp</li>
+      <li>✔ JavaScript Algorithms & Data Structures</li>
+    </ul>
+  </section>
+
+  <!-- 📩 Contact Section -->
+  <section id="contact" class="contact-section">
+    <h2>Contact Me</h2>
+    <form class="contact-form" action="https://formsubmit.co/YOUR_EMAIL@gmail.com" method="POST">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://your-portfolio-link.com/thankyou.html">
+
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- 🔗 Footer -->
+  <footer class="footer">
+    <p>© 2025 Shreyshi Sriwastav | Follow me on 
+      <a href="#">LinkedIn</a> | <a href="#">GitHub</a>
+    </p>
+  </footer>
+</body>
+</html>
